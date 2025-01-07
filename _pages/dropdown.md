@@ -8,9 +8,9 @@ children:
   - title: blog
     permalink: /blog/
   - title: divider
-  - title: person
-    permalink: /person/
+  - title: gallery
+    permalink: /gallery/
   - title: divider
-  - title: cv
-    permalink: /cv/
+  - title: news
+    permalink: /news/
 ---

@@ -5,6 +5,7 @@ date: 2025-01-06 12:30:00
 description: we have a new release
 tags: release
 categories: sample-posts
+featured: true
 ---
 
 ## This is a test release for a new blog
@@ -15,7 +16,7 @@ categories: sample-posts
     </div>
 </div>
 <div class="caption">
-    A new release!
+    A new release! from X @ymdbnk
 </div>
 
 A blog can contain multiple elements.

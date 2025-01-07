@@ -1,8 +1,8 @@
 ---
 layout: page
-title: person
-permalink: /person/
-description: A growing collection of your cool projects.
+title: people
+permalink: /people/
+description: A brief description of the people in our class.
 nav: true
 nav_order: 1
 display_categories: [counsellor, student]
