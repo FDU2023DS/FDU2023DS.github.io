@@ -19,5 +19,5 @@ description: This is a gallery page which displays our activities in form of ima
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. [click here for more info](../_posts/2025-01-07-new-release.md)
+    Caption photos easily. [click here for more info](../_posts/2025-01-06-new-release.md)
 </div>

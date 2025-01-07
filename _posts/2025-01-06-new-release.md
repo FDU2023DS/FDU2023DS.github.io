@@ -1,7 +1,7 @@
 ---
 layout: post
 title: new release
-date: 2025-01-07 12:30:00
+date: 2025-01-06 12:30:00
 description: we have a new release
 tags: release
 categories: sample-posts
