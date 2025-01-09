@@ -195,7 +195,7 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  projects:
+  people:
     output: true
     permalink: /:collection/:title/
 
@@ -249,7 +249,7 @@ exclude:
   - readme_preview/
   - vendor
   - reference_and_tools/
-  - dist/
+  - calendar/
 keep_files:
   - CNAME
   - .nojekyll
