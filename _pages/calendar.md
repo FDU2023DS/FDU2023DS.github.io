@@ -8,6 +8,7 @@ nav_order: 4
 
 ---
 
+<script src='../dist/index.global.js'></script>
 <div id='calendar'>
   <script src='../dist/index.global.js'></script>
   <script>
@@ -49,4 +50,20 @@ nav_order: 4
     });
 
   </script>
+
+  <style>
+    body {
+      margin: 40px 10px;
+      padding: 0;
+      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    #calendar {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+  </style>
+
+  <div id='calendar'></div>
 </div>
