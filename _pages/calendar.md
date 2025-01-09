@@ -8,9 +8,10 @@ nav_order: 4
 
 ---
 
-<script src='../dist/index.global.js'></script>
+<script src='dist/index.global.js'></script>
 <div id='calendar'>
-  <script src='../dist/index.global.js'></script>
+  <meta charset='utf-8' />
+  <script src='dist/index.global.js'></script>
   <script>
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -31,7 +32,7 @@ nav_order: 4
       });
 
       // 动态加载events
-      fetch('../dist/calendar-events.json')
+      fetch('dist/calendar-events.json')
         .then(response => {
           if (!response.ok) {
             throw new Error('Failed to load events JSON');
@@ -50,8 +51,8 @@ nav_order: 4
     });
 
   </script>
-
   <style>
+
     body {
       margin: 40px 10px;
       padding: 0;
@@ -63,7 +64,8 @@ nav_order: 4
       max-width: 1100px;
       margin: 0 auto;
     }
-  </style>
 
+  </style>
   <div id='calendar'></div>
+
 </div>
