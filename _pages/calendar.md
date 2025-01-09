@@ -7,7 +7,3 @@ nav: true
 nav_order: 4
 
 ---
-
-<div id='calendar'></div>
-<script src='dist/index.global.js'></script>
-<script src='dist/callendar.js'></script>
