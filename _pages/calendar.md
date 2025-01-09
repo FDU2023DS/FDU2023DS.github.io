@@ -8,8 +8,6 @@ nav_order: 4
 
 ---
 
-<script src='../dist/index.global.js'></script>
-<div id='calendar'>
 <head>
 <meta charset='utf-8' />
 <script src='../dist/index.global.js'></script>
@@ -73,5 +71,3 @@ nav_order: 4
   <div id='calendar'></div>
 
 </body>
-
-</div>
