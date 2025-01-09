@@ -70,7 +70,7 @@ nav_order: 4
 </head>
 <body>
 
-  <div id='calendar' style="float:left"></div>
+  <div id='calendar'></div>
 
 </body>
 
