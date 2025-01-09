@@ -9,7 +9,7 @@ nav_order: 4
 ---
 
 <div id='calendar'></div>
-<script src='../dist/index.global.js'></script>
+<script src='dist/index.global.js'></script>
 <script>
 
   document.addEventListener('DOMContentLoaded', function() {
