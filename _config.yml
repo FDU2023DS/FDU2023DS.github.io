@@ -249,6 +249,7 @@ exclude:
   - readme_preview/
   - vendor
   - reference_and_tools/
+  - dist/
 keep_files:
   - CNAME
   - .nojekyll

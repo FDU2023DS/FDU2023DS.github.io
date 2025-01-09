@@ -1,0 +1,43 @@
+[
+    {
+      "title": "数据库及实现",
+      "allDay": false,
+      "daysOfWeek": [3],
+      "startTime": "09:55:00",
+      "endTime": "12:30:00",
+      "startRecur": "2025-02-17",
+      "endRecur": "2025-06-08",
+      "color": "#e0b0e0"
+    },
+    {
+      "title": "最优化方法",
+      "allDay": false,
+      "daysOfWeek": [4],
+      "startTime": "13:30:00",
+      "endTime": "16:10:00",
+      "startRecur": "2025-02-17",
+      "endRecur": "2025-06-08",
+      "color": "#e0b0e0"
+    },
+    {
+      "title": "统计学基础：原理、方法及R应用",
+      "allDay": false,
+      "daysOfWeek": [5],
+      "startTime": "09:55:00",
+      "endTime": "12:30:00",
+      "startRecur": "2025-02-17",
+      "endRecur": "2025-06-08",
+      "color": "#e0b0e0"
+    },
+    {
+      "title": "谈心谈话(可能)",
+      "allDay": false,
+      "daysOfWeek": [1, 2],
+      "startTime": "08:00:00",
+      "endTime": "10:00:00",
+      "startRecur": "2025-02-17",
+      "endRecur": "2025-06-08",
+      "color": "#e0b0e0",
+      "display": "background"
+    }
+  ]
