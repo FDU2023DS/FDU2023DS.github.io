@@ -195,9 +195,9 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  people:
+  projects:
     output: true
-    permalink: /:collection/:title/
+    permalink: /people/:title/
 
 announcements:
   enabled: true
