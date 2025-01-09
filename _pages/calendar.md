@@ -8,10 +8,10 @@ nav_order: 4
 
 ---
 
-<script src='dist/index.global.js'></script>
-<div id='calendar'>
-  <meta charset='utf-8' />
-  <script src='dist/index.global.js'></script>
+<script src="../dist/index.global.js"></script>
+<div id="calendar">
+  <meta charset="utf-8" />
+  <script src="../dist/index.global.js"></script>
   <script>
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -66,6 +66,6 @@ nav_order: 4
     }
 
   </style>
-  <div id='calendar'></div>
+  <div id="calendar"></div>
 
 </div>

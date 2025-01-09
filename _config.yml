@@ -249,7 +249,6 @@ exclude:
   - readme_preview/
   - vendor
   - reference_and_tools/
-  - calendar/
 keep_files:
   - CNAME
   - .nojekyll
