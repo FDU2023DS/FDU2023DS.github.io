@@ -32,6 +32,7 @@ nav_order: 4
       businessHours: true, // display business hours
       editable: true,
       selectable: true,
+      themeSystem: 'bootstrap',
       events: []
     });
 
