@@ -50,4 +50,4 @@ nav_order: 4
 
 </script>
 
-<div id='calendar'></div>
+<div id='calendar' style='float:left'></div>

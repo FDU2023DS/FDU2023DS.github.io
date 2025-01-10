@@ -67,15 +67,17 @@ for row in ws.iter_rows(min_row=row_index+2, max_row=ws.max_row-1,values_only=Tr
             fp.write('        {% include figure.liquid loading="eager" path="'+imgpath+'" title="example image" class="img-fluid rounded z-depth-1" %}\n')
             fp.write('    </div>\n')
             fp.write('</div>\n\n')
-        fp.write('<font size="5">\n')
-        fp.write('    name: '+str(row[name_cn_flag])+'<br>\n')
-        fp.write('    name_en: '+str(row[name_en_flag])+'<br>\n')
         if row[slogan_cn_flag] != '无':
-            fp.write('    slogan: '+str(row[slogan_cn_flag])+'<br>\n')
+            fp.write('<div class="row justify-content-center" style="font-size: 20px">\n')
+            fp.write('    '+str(row[slogan_cn_flag])+'<br>\n')
+            fp.write('</div>\n')
         if row[slogan_en_flag] != '无':
-            fp.write('    slogan_en: '+str(row[slogan_en_flag])+'<br>\n')
+            fp.write('<div class="row justify-content-center" style="font-size: 20px">\n')
+            fp.write('    '+str(row[slogan_en_flag])+'<br>\n')
+            fp.write('</div>\n')
         if row[link_flag] != '无':
+            fp.write('<div class="row justify-content-center">\n')
             fp.write('    link: <a href="'+str(row[link_flag])+'">'+str(row[link_flag])+'</a><br>\n')
-        fp.write('</font>\n')
+            fp.write('</div>\n')
     row_index+=1
 quot_txt.close()
