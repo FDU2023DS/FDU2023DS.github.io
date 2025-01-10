@@ -68,7 +68,7 @@
 
 ## 3.5 people
 
-    The people can be changed in `_rojects/` and `assets/person_img/`.
+    The people can be changed in `_projects/` and `assets/person_img/`.
     iIf you want to add new people, please put the excel file in the main folder, rename it `raw0.xlsx`, copy the file `reference_and_tools/data_to_md.py` to the main folder and run it. Finally, remember to delete the excel file and the python file.
 
 ## 3.6 blog
