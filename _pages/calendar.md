@@ -11,7 +11,7 @@ nav_order: 4
 <style>
   .fc-daygrid-event-harness{
     margin-top: 0px;
-    float: left;
+    overflow-wrap: break-word;
     font-size: 12px;
   }
 </style>
