@@ -21,9 +21,9 @@ description: This is a gallery page which displays our activities in form of ima
 <div class="caption">
     Caption photos easily.
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1 zoomable=true" %}
+        {% include figure.liquid loading="eager" path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1 zoomable=true" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1 zoomable=true" %}

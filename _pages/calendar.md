@@ -8,6 +8,14 @@ nav_order: 4
 
 ---
 
+<style>
+  #fc-daygrid-event-harness{
+    margin-top: 0px;
+    float: left;
+    font-size: 12px;
+  }
+</style>
+
 <script src="../assets/js/index.global.min.js?v={{ 'v' | date: '%s' }}"></script>
 
 <script>
@@ -50,4 +58,4 @@ nav_order: 4
 
 </script>
 
-<div id='calendar' style='float:left'></div>
+<div id='calendar'></div>
