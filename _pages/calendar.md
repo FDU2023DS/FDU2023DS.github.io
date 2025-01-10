@@ -8,23 +8,7 @@ nav_order: 4
 
 ---
 
-<style>
-
-  body {
-    margin: 40px 10px;
-    padding: 0;
-    font-size: 12px;
-  }
-
-  #calendar {
-    max-width: 1100px;
-    margin: 0 auto;
-    float: left;
-  }
-
-</style>
-
-<script src='https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@6.1.15/index.global.min.js'></script>
+<script src='assets/js/index.global.min.js'></script>
 <script>
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -45,7 +29,7 @@ nav_order: 4
     });
 
     // 动态加载events
-    fetch('../assets/json/calendar_events.json')
+    fetch('assets/json/calendar_events.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to load events JSON');
