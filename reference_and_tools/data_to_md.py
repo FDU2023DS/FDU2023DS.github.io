@@ -26,7 +26,7 @@ for col in flag_row:
         link_flag=col.col_idx-1
 
 # calculate the mode of the image size
-with open('./assets/person_img/mode.txt','w') as fp:
+with open('./reference_and_tools/mode.txt','w') as fp:
     for i in range(3,ws.max_row):
         img=Image.open('./assets/person_img/row'+str(i-2)+'.png')
         w=img.size[0]
@@ -39,7 +39,7 @@ with open('./assets/person_img/mode.txt','w') as fp:
 
 # collect data and write to markdown
 row_index=1
-quot_txt=open('./assets/person_img/mode.txt','r')
+quot_txt=open('./reference_and_tools/mode.txt','r')
 for row in ws.iter_rows(min_row=row_index+2, max_row=ws.max_row-1,values_only=True):
     filename='./_projects/'+str(row_index)+'.md'  #remember to change the path to the repository _projecs folder
     imgpath='assets/person_img/row'+str(row_index)+'.png'
