@@ -65,6 +65,7 @@
 
     The gallery can be changed in `_pages/gallery.md` and `assets/img/`.
     examples -> `reference_and_tools/`
+    type setting -> https://getbootstrap.com/docs/4.4/layout/grid/
 
 ## 3.5 people
 
