@@ -10,9 +10,10 @@ nav_order: 4
 
 <style>
   .fc-daygrid-day-events{
-    margin-top: 0px;
     font-size: 12px;
     overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
   }
 </style>
 
