@@ -8,7 +8,7 @@ nav_order: 4
 
 ---
 
-<script src="../assets/js/vanilla-back-to-top.min.js?v={{ 'v' | date: '%s' }}"></script>
+<script src="../assets/js/index.global.min.js?v={{ 'v' | date: '%s' }}"></script>
 
 <script>
 
