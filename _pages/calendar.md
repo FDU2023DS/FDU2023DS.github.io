@@ -8,7 +8,8 @@ nav_order: 4
 
 ---
 
-<script src='assets/js/index.global.min.js'></script>
+<script src="../assets/js/vanilla-back-to-top.min.js?v={{ 'v' | date: '%s' }}"></script>
+
 <script>
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -29,7 +30,7 @@ nav_order: 4
     });
 
     // 动态加载events
-    fetch('assets/json/calendar_events.json')
+    fetch('../assets/json/calendar_events.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to load events JSON');
