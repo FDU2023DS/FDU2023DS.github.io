@@ -9,7 +9,7 @@ nav_order: 4
 ---
 
 <style>
-  #fc-daygrid-event-harness{
+  .fc-daygrid-event-harness{
     margin-top: 0px;
     float: left;
     font-size: 12px;
