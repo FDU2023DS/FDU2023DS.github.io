@@ -8,13 +8,6 @@ nav_order: 4
 
 ---
 
-<style>
-  .fc-daygrid-day-events{
-    font-size: 12px;
-    white-space: normal;
-  }
-</style>
-
 <script src="../assets/js/index.global.min.js?v={{ 'v' | date: '%s' }}"></script>
 
 <script>
@@ -58,3 +51,9 @@ nav_order: 4
 </script>
 
 <div id='calendar'></div>
+
+<style>
+  .fc-daygrid-dot-event .fc-event-title {
+    text-overflow: ellipsis;
+  }
+</style>

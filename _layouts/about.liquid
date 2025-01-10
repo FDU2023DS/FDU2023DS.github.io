@@ -77,4 +77,22 @@ layout: default
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
   </article>
+  {% if site.giscus and page.giscus_comments %}
+    <script src="https://giscus.app/client.js"
+            data-repo="foxabbage/foxabbage.github.io"
+            data-repo-id="R_kgDONkl-8w"
+            data-category="General"
+            data-category-id="DIC_kwDONkl-884Cl5jY"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <div class="giscus"></div>
+  {% endif %}
 </div>
