@@ -62,4 +62,7 @@ nav_order: 4
   .fc-daygrid-dot-event .fc-event-title {
     text-overflow: ellipsis;
   }
+  .fc-icon{
+    color: white;
+  }
 </style>
