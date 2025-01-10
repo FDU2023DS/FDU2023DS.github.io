@@ -9,10 +9,10 @@ nav_order: 4
 ---
 
 <style>
-  .fc-daygrid-event-harness{
+  .fc-daygrid-day-events{
     margin-top: 0px;
-    overflow-wrap: break-word;
     font-size: 12px;
+    overflow-wrap: break-word;
   }
 </style>
 
