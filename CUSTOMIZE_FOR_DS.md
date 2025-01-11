@@ -50,7 +50,7 @@
     The giscus comment zone can be turned on or off.
     The dropdown menu can be changed in `_pages/dropdown.md`.
 
-## 3.2 news page
+## 3.2 news
 
     The news page is hidden under dropdown menu. The news can be added in `_news/`, which is mostly used as announcement.
     The news will be shown on homepage and history news can be found in news page hidden under dropdown on homepage.
@@ -59,7 +59,7 @@
 ## 3.3 calendar
 
     The calendar events can be changed in `assets/json/calendar_events.json`.
-    The calendar initial time can be changed in `_pages/calendar.md`.
+    The calendar initial time can be changed in `_pages/calendar.md`.(A test script is provided, updating 20:05UTC every day)
 
 ## 3.4 gallery
 
@@ -71,6 +71,7 @@
 
     The people can be changed in `_projects/` and `assets/person_img/`.
     iIf you want to add new people, please put the excel file in the main folder, rename it `raw0.xlsx`, copy the file `reference_and_tools/data_to_md.py` to the main folder and run it. Finally, remember to delete the excel file and the python file.
+    Remember: elemets in the table should be processed to meet the requirements of python tool.
 
 ## 3.6 blog
 
