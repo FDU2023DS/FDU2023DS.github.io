@@ -1,7 +1,6 @@
 # CUSTOMIZE FOR DS
 
-__Before officially publishing the website, remember to run the python scipt in `reference_and_tools/calender_update.py` before git push to ensure that the initialDate of callender is correct!__
-__Also, remember to change the code of comment zone(the code is in `_layouts/about.liquid`) according to the following tutorial and install the page according to INSTALL.md__
+__Remember to change the code of comment zone(the code is in `_layouts/about.liquid`) according to the following tutorial and install the page according to INSTALL.md__
 
 ## 0.1
 
@@ -62,7 +61,7 @@ __Also, remember to change the code of comment zone(the code is in `_layouts/abo
 ## 3.3 calendar
 
     The calendar events can be changed in `assets/json/calendar_events.json`.
-    The calendar initial time can be changed in `_pages/calendar.md`.(A test script is provided, updating 20:05UTC every day)
+    The calendar initial time can be changed in `_pages/calendar.md`.
 
 ## 3.4 gallery
 

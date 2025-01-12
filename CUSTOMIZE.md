@@ -4,7 +4,7 @@ Here we will give you some tips on how to customize the website. One important t
 
 ## memo for DS
 
-**Before officially publishing the website, remember to run the python scipt in `reference_and_tools/calender_update.py` to ensure that the initialDate of callender is correct!**
+**Before officially publishing the website, remember to change the code of giscus.**
 
 ## Project structure
 
