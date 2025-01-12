@@ -2,7 +2,7 @@ name: Monthly Workflow
 
 on:
   schedule:
-    - cron: '47 08 * * *'
+    - cron: '50 08 * * *'
 
 jobs:
   monthly-update:
@@ -22,8 +22,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config user.name "github-actions"
-        git config user.email "actions@github.com"
+        git config user.name "foxabbage"
+        git config user.email "wolfhenryyh@gmail.com"
         git add _pages/calendar.md
         git commit -m "monthly update"
-        git push
+        git push origin main
