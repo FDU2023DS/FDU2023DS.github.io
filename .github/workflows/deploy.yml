@@ -55,6 +55,9 @@ on:
       - "!FAQ.md"
       - "!INSTALL.md"
       - "!README.md"
+  workflow_run:
+    workflows: [Monthly Workflow]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
