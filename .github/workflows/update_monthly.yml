@@ -2,7 +2,7 @@ name: Monthly Workflow
 
 on:
   schedule:
-    - cron: '36 08 * * *'
+    - cron: '40 08 * * *'
 
 jobs:
   monthly-update:
