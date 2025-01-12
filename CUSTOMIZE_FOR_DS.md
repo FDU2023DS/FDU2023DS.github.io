@@ -1,5 +1,8 @@
 # CUSTOMIZE FOR DS
 
+__Before officially publishing the website, remember to run the python scipt in `reference_and_tools/calender_update.py` before git push to ensure that the initialDate of callender is correct!__
+__Also, remember to change the code of comment zone(the code is in `_layouts/about.liquid`) according to the following tutorial and install the page according to INSTALL.md__
+
 ## 0.1
 
     There're two customizing files in this project. If you're going to change the page, please refer to CUSTOMIZE.md.

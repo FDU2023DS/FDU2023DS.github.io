@@ -1,18 +1,16 @@
-from datetime import datetime
+import datetime
 from zoneinfo import ZoneInfo
 import re
 
-current_datetime = datetime.now()
-timezone = ZoneInfo("Asia/Shanghai")
-current_datetime_in_timezone = current_datetime.astimezone(timezone)
-date = str(current_datetime_in_timezone.date())
+date=datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat()
+date = str(date)+'+08:00'
 
 with open('_pages/calendar.md', 'r+', encoding='utf-8') as fp:
     lines=fp.readlines()
     flag=0
     for line in lines:
         if re.search(r'initialDate:', line):
-            line = re.sub(r'....-..-..', date, line)
+            line = re.sub(r'....-..-..T..:..:.....:..', date, line)
             lines[flag] = line
             break
         flag+=1
