@@ -1,0 +1,29 @@
+name: Monthly Workflow
+
+on:
+  schedule:
+    - cron: '45 07 * * *'
+
+jobs:
+  monthly-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+
+    - name: Run Python script
+      run: python reference_and_tools/calendar_update.py  # 替换为你的 Python 脚本名
+
+    - name: Commit and push changes
+      run: |
+        git config user.email "wolfhenryyh@gmail.com"
+        git config user.name "foxabbage"
+        git add _pages/calendar.md
+        git commit -m "monthly update"
+        git push
