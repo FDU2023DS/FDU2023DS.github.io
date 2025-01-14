@@ -1,6 +1,6 @@
 # CUSTOMIZE FOR DS
 
-__Remember to change the code of comment zone(the code is in `_layouts/about.liquid`) according to the following tutorial and install the page according to INSTALL.md__
+__Remember to change the code of comment zone(the code is in `_layouts/about.liquid`) and install giscus according to the following tutorial and install the page according to INSTALL.md__
 
 ## 0.1
 
