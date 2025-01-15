@@ -1,7 +1,7 @@
 ---
 layout: post
 title: official release
-date: 2025-01-15 23:00:00
+date: 2025-01-15 22:00:00+0800
 description: we have an official release
 tags: release
 categories: no image
