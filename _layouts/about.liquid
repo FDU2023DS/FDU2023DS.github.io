@@ -76,6 +76,23 @@ layout: default
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
+
+    <h2>GitHub contributors</h2>
+    <div id="contributors"></div>
+
+    <script>
+        fetch('https://api.github.com/repos/FDU2023DS/FDU2023DS.github.io/contributors')
+            .then(response => response.json())
+            .then(data => {
+                const contributorsDiv = document.getElementById('contributors');
+                data.forEach(contributor => {
+                    const contributorElement = document.createElement('p');
+                    contributorElement.textContent = contributor.login;
+                    contributorsDiv.appendChild(contributorElement);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
   </article>
   {% if site.giscus and page.giscus_comments %}
     <script src="https://giscus.app/client.js"
