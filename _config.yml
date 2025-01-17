@@ -13,8 +13,8 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <span id="busuanzi_container_site_pv">Page Views: <span id="busuanzi_value_site_pv"></span>.</span>
-  <span id="busuanzi_container_site_uv">Visitors: <span id="busuanzi_value_site_uv"></span>.</span>
+  <span id="busuanzi_container_site_pv" style="color: white;">Page Views: <span id="busuanzi_value_site_pv" style="color: white;"></span>.</span>
+  <span id="busuanzi_container_site_uv" style="color: white;">Visitors: <span id="busuanzi_value_site_uv" style="color: white;"></span>.</span>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
