@@ -15,6 +15,7 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 giscus_comments: true # includes a giscus comment section
+contributors: true # includes a list of contributors
 ---
 <!--you can refer to usage.md in _pages or CUSTOMIZE.md to get full knowledge of how to change the pages and customize them-->
 

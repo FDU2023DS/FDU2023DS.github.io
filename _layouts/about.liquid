@@ -77,22 +77,22 @@ layout: default
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
 
-    <h2>GitHub contributors</h2>
-    <div id="contributors"></div>
+    {% if site.contributors.enabled %}
+      <h3>core contributors</h3>
+      <div id="contributors"></div>
 
-    <script>
-        fetch('https://api.github.com/repos/FDU2023DS/FDU2023DS.github.io/contributors')
-            .then(response => response.json())
-            .then(data => {
-                const contributorsDiv = document.getElementById('contributors');
-                data.forEach(contributor => {
-                    const contributorElement = document.createElement('p');
-                    contributorElement.textContent = contributor.login;
-                    contributorsDiv.appendChild(contributorElement);
-                });
-            })
-            .catch(error => console.error('Error:', error));
-    </script>
+      <ul>
+        <li style="display: inline-block;">
+          <a href="https://github.com/foxabbage">foxabbage</a>
+        </li>
+        <li style="display: inline-block;">
+          <a href="https://github.com/Parry-Git">Parry-Git</a>
+        </li>
+        <li style="display: inline-block;">
+          <a href="https://github.com/HenryLau7">Yuanye Liu</a>
+        </li>
+      </ul>
+    {% endif %}
   </article>
   {% if site.giscus and page.giscus_comments %}
     <script src="https://giscus.app/client.js"
