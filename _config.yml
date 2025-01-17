@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   <span id="busuanzi_container_site_pv" style="color: white;">Page Views: <span id="busuanzi_value_site_pv" style="color: white;"></span>.</span>
   <span id="busuanzi_container_site_uv" style="color: white;">Visitors: <span id="busuanzi_value_site_uv" style="color: white;"></span>.</span>
-  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
