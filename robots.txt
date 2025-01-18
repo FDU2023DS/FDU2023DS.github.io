@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://foxabbage.github.io/sitemap.xml
+Sitemap: https://fdu2023ds.github.io/sitemap.xml
