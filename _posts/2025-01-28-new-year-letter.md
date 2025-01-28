@@ -1,7 +1,7 @@
 ---
 layout: post
 title: official release
-date: 2025-01-28 12:00:00+0800
+date: 2025-01-28 11:00:00+0800
 description: new year letter
 tags: release
 categories: text
