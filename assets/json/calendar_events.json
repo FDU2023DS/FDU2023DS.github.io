@@ -30,7 +30,7 @@
       "color": "#e0b0e0"
     },
     {
-      "title": "谈心谈话(可能)",
+      "title": "谈心谈话",
       "allDay": false,
       "daysOfWeek": [2, 4],
       "startTime": "08:00:00",
@@ -43,7 +43,14 @@
       "title": "开学注册",
       "allDay": true,
       "location": "校内",
-      "start": "2025-2-16",
+      "start": "2025-02-16",
       "color": "#FFC8C2"
+    },
+    {
+      "title": "新学期第一次班会",
+      "allDay": false,
+      "location": "暂定",
+      "start": "2025-02-18",
+      "color": "#F8B195"
     }
   ]
