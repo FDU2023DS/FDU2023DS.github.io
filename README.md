@@ -1,4 +1,5 @@
-# DS HOME PAGE
+# Fudan 2023DS HOMEPAGE
 
-This is the home page for FDU 23 DS which is based on the [al-folio](https://github.com/alshedivat/al-folio) theme.
-For DS, you can refer to CUSTOMIZE_FOR_DS.md for more information.
+Hello everyone, this is the homepage of Fudan 2023DS homepage: [FDU2023DS.github.io](FDU2023DS.github.io)
+
+[23DS](./assets/img/prof_pic.jpg)

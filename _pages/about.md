@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Home page.
+subtitle: 复旦大学大数据学院2023级本科生班
 
 profile:
   align: right

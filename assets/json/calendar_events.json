@@ -32,13 +32,12 @@
     {
       "title": "谈心谈话(可能)",
       "allDay": false,
-      "daysOfWeek": [1, 2],
+      "daysOfWeek": [2, 4],
       "startTime": "08:00:00",
-      "endTime": "10:00:00",
+      "endTime": "11:30:00",
       "startRecur": "2025-02-17",
       "endRecur": "2025-06-08",
-      "color": "#e0b0e0",
-      "display": "background"
+      "color": "#B9F3FC"
     },
     {
       "title": "开学注册",
