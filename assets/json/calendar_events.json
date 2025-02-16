@@ -39,5 +39,11 @@
       "endRecur": "2025-06-08",
       "color": "#e0b0e0",
       "display": "background"
+    },
+    {
+      "title": "开学注册",
+      "allDay": true,
+      "location": "校内",
+      "color": "#FFC8C2"
     }
   ]
