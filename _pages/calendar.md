@@ -27,7 +27,7 @@ nav_order: 4
         center: 'title',
         right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
       },
-      initialDate: '2025-04-01T02:18:33+08:00',
+      initialDate: '2025-05-01T02:20:47+08:00',
       navLinks: true, // can click day/week names to navigate views
       businessHours: true, // display business hours
       editable: true,
